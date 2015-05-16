@@ -1,0 +1,45 @@
+{
+  "name": "infozip-bin",
+  "version": "0.0.1",
+  "description": "zip and unzip wrapper that makes it seamlessly available as a local dependency in windows",
+  "license": "MIT, BSD",
+  "repository": "wilsonwc/infizip-bin",
+  "author": {
+    "name": "wilsonwc",
+    "email": "ross@wilsonwc.com",
+    "url": "http://github.com/wilsonwc"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "bin": {
+    "zip": "cli-zip.js",
+    "unzip": "cli-unzip.js"
+  },
+  "scripts": {
+    "postinstall": "node lib/install.js",
+    "test": "mocha --timeout 20000"
+  },
+  "files": [
+    "cli-zip.js",
+    "cli-unzip.js",
+    "index.js",
+    "lib"
+  ],
+  "keywords": [
+    "compress",
+    "zip",
+    "unzip"
+  ],
+  "dependencies": {
+    "bin-wrapper": "^3.0.0",
+    "logalot": "^2.0.0"
+  },
+  "devDependencies": {
+    "bin-check": "^1.0.0",
+    "compare-size": "^1.0.1",
+    "mkdirp": "^0.5.0",
+    "mocha": "^2.2.4",
+    "rimraf": "^2.2.8"
+  }
+}

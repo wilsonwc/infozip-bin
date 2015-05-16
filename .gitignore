@@ -1,0 +1,4 @@
+node_modules
+test/tmp
+vendor/*zip.exe
+.idea
