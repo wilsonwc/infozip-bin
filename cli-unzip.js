@@ -2,8 +2,8 @@
 'use strict';
 
 var spawn = require('child_process').spawn;
-var jpegRecompress = require('./');
+var unzip = require('./').unzip;
 var input = process.argv.slice(2);
-
-spawn(jpegRecompress, input, {stdio: 'inherit'})
+console.log(unzip);
+spawn(unzip, input, {stdio: 'inherit'})
 	.on('exit', process.exit);
