@@ -1,4 +1,5 @@
 node_modules
 test/tmp
-vendor/*zip.exe
+vendor/zip.exe
+vendor/unzip.exe
 .idea
