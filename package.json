@@ -3,7 +3,7 @@
   "version": "0.0.1",
   "description": "zip and unzip wrapper that makes it seamlessly available as a local dependency in windows",
   "license": "MIT, BSD",
-  "repository": "wilsonwc/infizip-bin",
+  "repository": "wilsonwc/infozip-bin",
   "author": {
     "name": "wilsonwc",
     "email": "ross@wilsonwc.com",
