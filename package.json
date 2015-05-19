@@ -1,6 +1,6 @@
 {
   "name": "infozip-bin",
-  "version": "0.0.2",
+  "version": "0.1.0",
   "description": "zip and unzip wrapper that makes it seamlessly available as a local dependency in windows",
   "license": "MIT, BSD",
   "repository": "wilsonwc/infozip-bin",
