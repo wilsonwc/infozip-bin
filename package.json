@@ -33,7 +33,8 @@
   ],
   "dependencies": {
     "bin-wrapper": "^3.0.0",
-    "logalot": "^2.0.0"
+    "logalot": "^2.0.0",
+    "npm-which": "^2.0.0"
   },
   "devDependencies": {
     "bin-check": "^1.0.0",
